@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Sinks.Pgsql", "src\Serilog.Sinks.Pgsql\Serilog.Sinks.Pgsql.csproj", "{C0FDCECB-607A-4DC3-891B-E089CB843062}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3DFA31BD-BD0C-4412-AD9C-23239A2EDB47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Sinks.Pgsql.Tests", "test\Serilog.Sinks.Pgsql.Tests\Serilog.Sinks.Pgsql.Tests.csproj", "{E163C4DB-2BC1-45C1-A800-7678C2875934}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{642EBE0D-C02F-43B1-8ABA-1A8931B59A8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0FDCECB-607A-4DC3-891B-E089CB843062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0FDCECB-607A-4DC3-891B-E089CB843062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0FDCECB-607A-4DC3-891B-E089CB843062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0FDCECB-607A-4DC3-891B-E089CB843062}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E163C4DB-2BC1-45C1-A800-7678C2875934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E163C4DB-2BC1-45C1-A800-7678C2875934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E163C4DB-2BC1-45C1-A800-7678C2875934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E163C4DB-2BC1-45C1-A800-7678C2875934}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C0FDCECB-607A-4DC3-891B-E089CB843062} = {3DFA31BD-BD0C-4412-AD9C-23239A2EDB47}
+		{E163C4DB-2BC1-45C1-A800-7678C2875934} = {642EBE0D-C02F-43B1-8ABA-1A8931B59A8B}
+	EndGlobalSection
+EndGlobal
